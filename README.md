@@ -1,7 +1,3 @@
 # PliniLeonardo.github.io
 
-# Bio
-
-# Research Interests
-
-# Publications 
+Web Page [here](https://plinileonardo.github.io/)
