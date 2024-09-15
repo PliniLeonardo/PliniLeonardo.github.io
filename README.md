@@ -1,4 +1,7 @@
-# Academic Pages
+This Site was developed using [Acedemic Pages](https://academicpages.github.io/)
+
+
+<!-- # Academic Pages
 **Academic Pages is a Github Pages template for academic websites.**
 Started my version 
 # Getting Started
@@ -57,4 +60,4 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 
 [![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
 [![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+</div> -->
