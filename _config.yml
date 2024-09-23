@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Machine Learning Researcher"
   location         : "Rome, Italy"
-  employer         : "INFN-LNF and Sapienza University of Rome"
+  employer         : "INFN-LNF and Sapienza University"
   uri              : # URL
   email            : "plinileonardo@gmail.com" 
 
@@ -45,7 +45,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # bluesky          : "bsky.app" # Replace this with you Bluesky username
   linkedin         : "leonardo-plini-038379177"
   mastodon         : # URL
   medium           : # URL
