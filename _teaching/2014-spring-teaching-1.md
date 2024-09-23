@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching Assistant"
 collection: teaching
-type: "Undergraduate course"
+type: "Master's degree course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+venue: "Sapienza University of Rome"
 date: 2014-01-01
-location: "City, Country"
+location: "Rome, Italy"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+I worked as a teaching assistant for the Fundamentals of Data Science course in the master's program in Data Science.
