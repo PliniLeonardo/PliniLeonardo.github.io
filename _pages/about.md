@@ -12,6 +12,16 @@ This site is currently under construction. Please check back later for updates. 
 
 👨‍💻 I am first year PhD student in [Artificial Intelligence](https://phd.uniroma1.it/web/ARTIFICIAL-INTELLIGENCE_nD3764_EN.aspx) at [Sapienza University of Rome](https://www.uniroma1.it/en/pagina-strutturale/home) and [INFN-LNF](https://w3.lnf.infn.it/?lang=en)
 
+🛑 I am currently working on mistake and anomaly detection in the PINlab, focusing on the use of egocentric data and Large Language Models (LLMs). My research involves developing methods to identify and address errors and anomalies in data collected from a first-person perspective, leveraging the capabilities of LLMs to enhance the analysis and interpretation of this data. This work aims to improve the reliability and accuracy of detection systems in real-world applications.
+
+⚛️ My current focus is on applying machine learning techniques to challenges in particle physics, specifically within the NA62 collaboration. As part of this project, I am working on the development of advanced algorithms designed to track the trajectories of particles as they move through detectors. This work aims to leverage machine learning to enhance the precision and efficiency of particle tracking, contributing to the broader goals of the NA62 experiment in studying rare particle interactions.
+
+
+# News
+
+** 10/2024 **: ECCV 24 was a wonderful experience
+
+
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
 <!-- A data-driven personal website

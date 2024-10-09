@@ -24,9 +24,9 @@ author:
   avatar           : "Leonardo.jpg"
   name             : "Leonardo Plini"
   pronouns         : # example: "she/her"  
-  bio              : "Machine Learning Researcher"
+  bio              : "Machine Learning Researcher at INFN-LNF and Sapienza University"
   location         : "Rome, Italy"
-  employer         : "INFN-LNF and Sapienza University"
+  # employer         : "INFN-LNF and Sapienza University"
   uri              : # URL
   email            : "plinileonardo@gmail.com" 
 
