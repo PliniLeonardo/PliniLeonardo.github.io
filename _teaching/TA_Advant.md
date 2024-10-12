@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Teaching Assistant Advant Training Camp"
 collection: teaching
 type: "Master's degree course"
@@ -8,4 +8,4 @@ date: 2023-09
 location: "Rome, Italy"
 ---
 
-Teaching Assistant during the Training Camp offered by Advant
+Teaching Assistant during the Training Camp offered by Advant -->
