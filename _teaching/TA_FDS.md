@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "Teaching Assistant Fundamentals of Data Science and Laboratory"
 collection: teaching
 type: "Master's degree course"
 permalink: /teaching/TA-FDS
