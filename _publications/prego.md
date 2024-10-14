@@ -8,7 +8,7 @@ excerpt: "This paper proposes PREGO, the first online one-class classification m
 venue: 'CVF Computer Vision and Pattern Recognition Conference (CVPR)'
 publication: IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)
 date: 2024-4-29
-year: 2024
+year: '2024'
 paperurl: 'https://arxiv.org/abs/2404.01933'
 url_paper: 'https://arxiv.org/abs/2404.01933'
 codeurl: 'https://arxiv.org/abs/2404.01933'

@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/The use of magnetic resonance images for the detection and classification of brain cancers with D-CNN
 excerpt: 'This paper utilizes state-of-the-art CNN architectures, including EfficientNetB0, ResNet50, and VGG16, with Transfer Learning to classify three types of brain tumors from a dataset of 3,264 MRI images.'
 venue: 'Statistics and Data Science Conference'
-year: 2023
+year: '2023'
 date: 2023-5-29
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: 'https://iris.uniroma1.it/handle/11573/1696252'

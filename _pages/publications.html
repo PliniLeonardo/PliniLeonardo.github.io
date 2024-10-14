@@ -46,7 +46,7 @@ author_profile: true
 {% include base_path %}
 
 <!-- Get unique years and sort them in descending order -->
-{% assign years = site.publications | map: 'year' | uniq | sort: 'num' | reverse %}
+{% assign years = site.publications | map: 'date' | uniq | sort: 'num' | reverse %}
 
 {% for year in years %}
   <h2>{{ year }}</h2>
