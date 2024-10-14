@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: archive
 title: "Publications"
 permalink: /publications/
@@ -9,10 +9,10 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %} 
+{% include base_path %}  -->
 
 <!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
+<!-- {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications | sort: "year" | reverse %}
@@ -30,4 +30,31 @@ author_profile: true
   {% for post in site.publications | sort: "year" %}
     {% include archive-single.html %}
   {% endfor %}
+{% endif %} -->
+
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
+
+{% include base_path %}
+
+<!-- Get unique years and sort them in descending order -->
+{% assign years = site.publications | map: 'year' | uniq | sort: 'num' | reverse %}
+
+{% for year in years %}
+  <h2>{{ year }}</h2>
+  <hr />
+  {% for post in site.publications %}
+    {% if post.year == year %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
