@@ -7,8 +7,12 @@ redirect_from:
   - /resume
 ---
 
+
 {% include base_path %}
 
+You can find my cv at this [link] (https://docs.google.com/document/d/19kOxdxe8xVp18xnjg6pWIEhlzfGb4HwWUQPkfa9NoNo/edit?usp=sharing)
+
+<!--  
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
@@ -61,4 +65,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
