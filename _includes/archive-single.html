@@ -71,36 +71,70 @@
     <a href="{{ post.paperurl }}">Download Paper</a> | 
     <a href="{{ post.slidesurl }}">Download Slides</a> | 
     <a href="{{ post.codeurl }}">View Code</a></p>
-    {% elsif post.citation and post.paperurl and post.codeurl %}
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="Related Image" />
+    {% endif %}
+{% elsif post.citation and post.paperurl and post.codeurl %}
     <p>Recommended citation: {{ post.citation }}<br />
     <a href="{{ post.paperurl }}">Download Paper</a> | 
     <a href="{{ post.codeurl }}">View Code</a></p>
-    {% elsif post.citation and post.slidesurl and post.codeurl %}
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="Related Image" />
+    {% endif %}
+{% elsif post.citation and post.slidesurl and post.codeurl %}
     <p>Recommended citation: {{ post.citation }}<br />
     <a href="{{ post.slidesurl }}">Download Slides</a> | 
     <a href="{{ post.codeurl }}">View Code</a></p>
-    {% elsif post.citation and post.codeurl %}
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="Related Image" />
+    {% endif %}
+{% elsif post.citation and post.codeurl %}
     <p>Recommended citation: {{ post.citation }}<br />
     <a href="{{ post.codeurl }}">View Code</a></p>
-    {% elsif post.paperurl and post.slidesurl and post.codeurl %}
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="Related Image" />
+    {% endif %}
+{% elsif post.paperurl and post.slidesurl and post.codeurl %}
     <p><a href="{{ post.paperurl }}">Download Paper</a> | 
     <a href="{{ post.slidesurl }}">Download Slides</a> | 
     <a href="{{ post.codeurl }}">View Code</a></p>
-    {% elsif post.paperurl and post.codeurl %}
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="Related Image" />
+    {% endif %}
+{% elsif post.paperurl and post.codeurl %}
     <p><a href="{{ post.paperurl }}">Download Paper</a> | 
     <a href="{{ post.codeurl }}">View Code</a></p>
-    {% elsif post.slidesurl and post.codeurl %}
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="Related Image" />
+    {% endif %}
+{% elsif post.slidesurl and post.codeurl %}
     <p><a href="{{ post.slidesurl }}">Download Slides</a> | 
     <a href="{{ post.codeurl }}">View Code</a></p>
-    {% elsif post.citation %}
-    <p>Recommended citation: {{ post.citation }}</p>
-    {% elsif post.paperurl %}
-    <p><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.slidesurl %}
-    <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.codeurl %}
-    <p><a href="{{ post.codeurl }}">View Code</a></p>
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="Related Image" />
     {% endif %}
+{% elsif post.citation %}
+    <p>Recommended citation: {{ post.citation }}</p>
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="Related Image" />
+    {% endif %}
+{% elsif post.paperurl %}
+    <p><a href="{{ post.paperurl }}">Download Paper</a></p>
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="Related Image" />
+    {% endif %}
+{% elsif post.slidesurl %}
+    <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="Related Image" />
+    {% endif %}
+{% elsif post.codeurl %}
+    <p><a href="{{ post.codeurl }}">View Code</a></p>
+    {% if post.image %}
+    <img src="{{ post.image }}" alt="Related Image" />
+    {% endif %}
+{% endif %}
+
 
 
   </article>
