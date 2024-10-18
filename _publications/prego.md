@@ -7,7 +7,7 @@ authors: Alessandro Flaborea, Guido Maria D’Amely Di Melendugno, Leonardo Plin
 excerpt: "This paper proposes PREGO, the first online one-class classification model for mistake detection in procedural egocentric videos."
 venue: 'CVF Computer Vision and Pattern Recognition Conference (CVPR)'
 publication: IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)
-date: '2024-4-29'
+date: 2024-4-29
 year: '2024'
 paperurl: 'https://arxiv.org/abs/2404.01933'
 url_paper: 'https://arxiv.org/abs/2404.01933'

@@ -6,7 +6,7 @@ permalink: /publication/The use of magnetic resonance images for the detection a
 excerpt: 'This paper utilizes state-of-the-art CNN architectures, including EfficientNetB0, ResNet50, and VGG16, with Transfer Learning to classify three types of brain tumors from a dataset of 3,264 MRI images.'
 venue: 'Statistics and Data Science Conference'
 year: '2023'
-date: '2023-5-29'
+date: 2023-5-29
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: 'https://iris.uniroma1.it/handle/11573/1696252'
 # citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
