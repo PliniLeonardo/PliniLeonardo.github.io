@@ -31,31 +31,8 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %} -->
   {% for post in site.publications reversed %}
-    <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-        <!-- Controllo se esiste un'immagine -->
-        {% if post.image %}
-        <div style="flex: 0 0 100px; margin-right: 15px;">
-            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width: 100px; height: auto; border-radius: 5px;">
-        </div>
-        {% endif %}
-        <!-- Dettagli della pubblicazione -->
-        <div>
-        <h3 style="margin: 0;">
-            <a href="{{ post.permalink }}">{{ post.title }}</a>
-        </h3>
-        <p>{{ post.excerpt }}</p>
-        <p>
-            Published in <i>{{ post.publication }}</i>, {{ post.year }}
-        </p>
-        {% if post.paperurl %}
-            <a href="{{ post.paperurl }}">Download Paper</a>
-        {% endif %}
-        {% if post.codeurl %}
-            | <a href="{{ post.codeurl }}">View Code</a>
-        {% endif %}
-        </div>
-    </div>
-    {% endfor %}
+    <p>{{ post.title }} - Image Path: {{ post.image }}</p>
+  {% endfor %}
 
 {% endif %}
 
