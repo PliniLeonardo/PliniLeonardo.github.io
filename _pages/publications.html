@@ -27,12 +27,10 @@ author_profile: true
     {% endfor %}
   {% endfor %}
 {% else %} 
-  <!-- {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %} -->
   {% for post in site.publications reversed %}
-    <p>{{ post.title }} - Image Path: {{ post.image }}</p>
+    {% include archive-single.html %}
   {% endfor %}
+
 
 {% endif %}
 
