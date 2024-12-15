@@ -12,7 +12,7 @@ year: '2024'
 paperurl: 'https://arxiv.org/abs/2404.01933'
 url_paper: 'https://arxiv.org/abs/2404.01933'
 codeurl: 'https://arxiv.org/abs/2404.01933'
-image: 'images/teaser_prego.png'
+image: '/images/teaser_prego.png'
 ---
 
 
