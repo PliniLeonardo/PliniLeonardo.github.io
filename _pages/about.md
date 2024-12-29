@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-🚧 Site Under Construction
-This site is currently under construction. Please check back later for updates. Thank you for your patience!
 
 👨‍💻 I am first year PhD student in [Artificial Intelligence](https://phd.uniroma1.it/web/ARTIFICIAL-INTELLIGENCE_nD3764_EN.aspx) at [Sapienza University of Rome](https://www.uniroma1.it/en/pagina-strutturale/home) and [INFN-LNF](https://w3.lnf.infn.it/?lang=en)
 
