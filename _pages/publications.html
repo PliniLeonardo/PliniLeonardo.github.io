@@ -9,9 +9,6 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-
-<h1>My Publications</h1>
-
 {% assign pub_years = site.publications | map: 'year' | uniq | sort: 'reverse' %}
 <!-- 
   pub_years: array degli anni estratti da tutti i post in site.publications 
@@ -26,21 +23,26 @@ author_profile: true
   <!-- Loop su tutte le pubblicazioni, filtrate per l'anno corrente y -->
   {% for pub in site.publications %}
     {% if pub.year == y %}
-      <div style="display:flex; margin-top:1em;">
-        <!-- Immagine a sinistra -->
-        <div style="min-width:100px; margin-right:15px;">
+      <div style="display:flex; gap:1em; margin-top:1em;">
+        
+        <!-- Colonna immagine (1/3) -->
+        <div style="flex:1;">
           {% if pub.image %}
-            <img src="{{ pub.image }}" alt="Paper image" style="width:200px;">
+            <!-- L’immagine riempie la sua colonna (width:100%) preservando il rapporto d’aspetto -->
+            <img src="{{ pub.image }}" alt="Paper image" style="width:100%; height:auto;">
           {% endif %}
         </div>
-        <!-- Testo a destra -->
-        <div>
+        
+        <!-- Colonna testo (2/3) -->
+        <div style="flex:2;">
           <strong>{{ pub.title }}</strong><br/>
           <em>{{ pub.authors }}</em><br/>
+          
           {% if pub.excerpt %}
             {{ pub.excerpt }}
           {% endif %}
           <br/>
+          
           <!-- Link Paper / Codice -->
           {% if pub.paperurl %}
             <a href="{{ pub.paperurl }}">Paper</a>
