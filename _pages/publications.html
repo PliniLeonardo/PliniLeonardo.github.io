@@ -9,12 +9,9 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% assign pub_years = site.publications | map: 'year' | uniq | sort: 'reverse' %}
-<!-- 
-  pub_years: array degli anni estratti da tutti i post in site.publications 
-  (quindi dalla collezione _publications), 
-  li rende unici (uniq) e li ordina in modo discendente (reverse).
--->
+{% assign pub_years = site.publications | map: 'year' | uniq | sort %}
+{% assign pub_years = pub_years | reverse %}
+
 
 {% for y in pub_years %}
 <details style="margin-bottom:1em;">
