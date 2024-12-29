@@ -8,4 +8,4 @@ date: 2023-07-30
 location: "Rome, Italy"
 ---
 
-Teaching Assistant during the Training Camp offered by Amazon Web Services
+Teaching Assistant during the Training Camp offered by Amazon Web Services at Sapienza University of Rome 2022/23.

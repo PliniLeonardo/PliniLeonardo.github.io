@@ -8,4 +8,4 @@ date: 2023-09-10
 location: "Rome, Italy"
 ---
 
-Teaching Assistant during the Training Camp offered by Advant
+Teaching Assistant during the Training Camp offered by Advant at Sapienza University of Rome in 2022/23.

@@ -20,6 +20,7 @@ This site is currently under construction. Please check back later for updates. 
 # News
 
 **11/2024** : Won Young Speaker award at WIFAI 2024
+
 **10/2024**: ECCV 24 was a wonderful experience
 
 
