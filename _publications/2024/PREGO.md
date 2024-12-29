@@ -20,4 +20,6 @@ Promptly identifying procedural errors from egocentric videos in an online setti
 
 
 <!-- include image -->
-![An image](images/teaser_prego.png)
+<!--
+ ![An image](images/teaser_prego.png)
+  -->
