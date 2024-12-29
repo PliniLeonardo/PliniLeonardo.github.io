@@ -19,8 +19,11 @@ This site is currently under construction. Please check back later for updates. 
 
 # News
 
-**11/2024** : Won Young Speaker award at WIFAI 2024
+**11/2024** : Young Speaker award at WIFAI 2024
 
-**10/2024**: ECCV 24 was a wonderful experience
+**10/2024**: Attended ECCV 24: wonderful opportunity to see a lot of increadible papers and discuss with super smart people
 
+**7/2024**: Honorable Mention in the Essay Competition at the Internation Computer Vision Summer School
+
+**3/2024**: PREGO accepted at CVPR'24
 
