@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Leonardo.jpg"
+  avatar           : "Seattle.jpg"
   name             : "Leonardo Plini"
   pronouns         : # example: "she/her"  
   bio              : "Machine Learning Researcher at INFN-LNF and Sapienza University"
