@@ -5,8 +5,47 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+{% assign teaching_years = site.teaching | map: 'year' | uniq | sort | reverse %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% for y in teaching_years %}
+<details style="margin-bottom:1em;">
+  <summary><strong>{{ y }}</strong></summary>
+
+  {% for course in site.teaching %}
+    {% if course.year == y %}
+      <div style="display:flex; gap:1em; margin-top:1em;">
+        
+        <!-- Colonna immagine (opzionale, 1/3) -->
+        <div style="flex:1;">
+          {% if course.image %}
+            <img src="{{ course.image }}" alt="Course image" style="width:100%; height:auto;">
+          {% endif %}
+        </div>
+        
+        <!-- Colonna testo (2/3) -->
+        <div style="flex:2;">
+          <strong>{{ course.title }}</strong><br/>
+          {% if course.date %}<em>{{ course.date | date: "%Y-%m-%d" }}</em>{% endif %}
+          {% if course.location %} – <em>{{ course.location }}</em>{% endif %}
+          <br/>
+
+          {% if course.excerpt %}
+            {{ course.excerpt }}
+          {% endif %}
+          <br/>
+
+          <!-- Link per materiale o registrazioni -->
+          {% if course.material_url %}
+            <a href="{{ course.material_url }}">Material</a>
+          {% endif %}
+          {% if course.video_url %}
+            {% if course.material_url %} | {% endif %}
+            <a href="{{ course.video_url }}">Video</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+
+</details>
 {% endfor %}
