@@ -17,7 +17,7 @@ author_profile: true
 
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
@@ -28,55 +28,57 @@ author_profile: true
 </p>
 {% endif %}
 
-{% comment %}
-  1) Ricavo tutti gli anni esistenti fra i talk, li rendo unici e li ordino.
-  2) Poi li inverto (reverse) per ottenere l'ordine discendente (dal più recente al meno recente).
-{% endcomment %}
-{% assign talk_years = site.talks | map: 'year' | uniq | sort %}
-{% assign talk_years = talk_years | reverse %}
+{%- comment -%}
+  1) Ricavo tutti gli anni esistenti fra i talk,
+     li rendo unici e li ordino.
+  2) Poi inverto l'ordine (reverse) per avere dal più recente al più vecchio.
+{%- endcomment -%}
+
+{% assign talk_years = site.talks | map: 'year' | uniq | sort | reverse %}
 
 {% for y in talk_years %}
 <details style="margin-bottom:1em;">
   <summary><strong>{{ y }}</strong></summary>
-  
+
+  {%- comment -%}
+    Itero tutti i talk e mostro solo quelli con 'year == y'
+  {%- endcomment -%}
   {% for talk in site.talks %}
     {% if talk.year == y %}
-      <!-- Se vuoi riutilizzare il tuo partial per i talk -->
-      {% include archive-single-talk.html talk=talk %}
 
-      <!-- Oppure puoi personalizzare la presentazione qui, 
-           in modo simile a come hai fatto per le publications -->
-      {%
-        comment
-        Esempio di struttura "a mano":
-        
-        <div style="display:flex; gap:1em; margin-top:1em;">
-          <div style="flex:1;">
-            {% if talk.image %}
-              <img src="{{ talk.image }}" alt="Talk image" style="width:100%; height:auto;">
-            {% endif %}
-          </div>
-          <div style="flex:2;">
-            <strong>{{ talk.title }}</strong><br/>
-            <em>{{ talk.date }}</em> - <em>{{ talk.location }}</em><br/>
-            
-            {% if talk.excerpt %}
-              {{ talk.excerpt }}
-            {% endif %}
-            
-            {% if talk.slides_url %}
-              <br/><a href="{{ talk.slides_url }}">Slides</a>
-            {% endif %}
-            {% if talk.video_url %}
-              {% if talk.slides_url %} | {% endif %}
-              <a href="{{ talk.video_url }}">Video</a>
-            {% endif %}
-          </div>
+      <!-- Esempio: uso un layout "custom" come nelle publications -->
+      <div style="display:flex; gap:1em; margin-top:1em;">
+        <!-- Colonna immagine -->
+        <div style="flex:1;">
+          {% if talk.image %}
+            <img src="{{ talk.image }}" alt="Talk image" style="width:100%; height:auto;">
+          {% endif %}
         </div>
-        
-        endcomment
-      %}
+
+        <!-- Colonna testo -->
+        <div style="flex:2;">
+          <strong>{{ talk.title }}</strong><br/>
+          {% if talk.date %}<em>{{ talk.date }}</em>{% endif %}
+          {% if talk.location %} - <em>{{ talk.location }}</em>{% endif %}
+          <br/>
+
+          {% if talk.excerpt %}
+            {{ talk.excerpt }}
+          {% endif %}
+
+          <br/>
+          {% if talk.slides_url %}
+            <a href="{{ talk.slides_url }}">Slides</a>
+          {% endif %}
+          {% if talk.video_url %}
+            {% if talk.slides_url %} | {% endif %}
+            <a href="{{ talk.video_url }}">Video</a>
+          {% endif %}
+        </div>
+      </div>
+
     {% endif %}
   {% endfor %}
+
 </details>
 {% endfor %}

@@ -4,7 +4,7 @@ collection: talks
 type: "Conference proceedings talk"
 permalink: /talks/WIFAI_2024
 venue: "Third Italian Workshop on the Physics at High Intensity"
-date: 2024-11-13
+date: 2024-11-15
 year: '2024'
 location: "Bologna, Italy"
 ---
