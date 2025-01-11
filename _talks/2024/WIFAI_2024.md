@@ -7,7 +7,7 @@ venue: "Third Italian Workshop on the Physics at High Intensity"
 date: 2024-11-15
 year: '2024'
 location: "Bologna, Italy"
-image: '/images/Foto_WIFAI24.jpeg'
+image: '/images/WIFAI24.jpeg'
 ---
 
 Winner of  Young Speaker Award 
