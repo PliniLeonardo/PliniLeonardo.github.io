@@ -7,6 +7,7 @@ venue: "Third Italian Workshop on the Physics at High Intensity"
 date: 2024-11-15
 year: '2024'
 location: "Bologna, Italy"
+image: '/images/teaser_prego.png'
 ---
 
 
