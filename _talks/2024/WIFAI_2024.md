@@ -10,4 +10,4 @@ location: "Bologna, Italy"
 image: '/images/Foto_WIFAI24.jpeg'
 ---
 
-
+Winner of  Young Speaker Award 
