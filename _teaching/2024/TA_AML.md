@@ -4,7 +4,7 @@ collection: teaching
 type: "Master's degree course"
 permalink: /teaching/TA-AML
 venue: "Sapienza University of Rome"
-date: 2024-08-30
+# date: 2024-08-30
 year: '2024'
 location: "Rome, Italy"
 ---

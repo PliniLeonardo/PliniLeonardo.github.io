@@ -4,8 +4,8 @@ collection: teaching
 type: "Master's degree course"
 permalink: /teaching/TA-Amazon
 venue: "Sapienza University of Rome"
-date: 2023-07-30
-year: '2024'
+# date: 2023-07-30
+year: '2023'
 location: "Rome, Italy"
 ---
 

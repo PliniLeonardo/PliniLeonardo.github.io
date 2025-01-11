@@ -4,8 +4,8 @@ collection: teaching
 type: "Master's degree course"
 permalink: /teaching/TA-FDS
 venue: "Sapienza University of Rome"
-date: 2022-08-30
-year: '2024'
+# date: 2022-08-30
+year: '2022'
 location: "Rome, Italy"
 ---
 
