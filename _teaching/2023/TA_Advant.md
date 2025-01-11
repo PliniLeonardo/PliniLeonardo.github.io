@@ -5,6 +5,7 @@ type: "Master's degree course"
 permalink: /teaching/TA-Advant
 venue: "Sapienza University of Rome"
 date: 2023-09-10
+year: '2024'
 location: "Rome, Italy"
 ---
 

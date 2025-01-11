@@ -5,6 +5,7 @@ type: "Bachelor degree course"
 permalink: /teaching/TA-DL
 venue: "Sapienza University of Rome"
 date: 2024-08-30
+year: '2024'
 location: "Rome, Italy"
 ---
 
