@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "WIFAI 2024: Deep Learning Techniques for Particle Tracking in NA62 "
 collection: talks
 type: "Conference proceedings talk"
@@ -8,5 +8,5 @@ date: 2024-11-15
 year: '2024'
 location: "Bologna, Italy"
 ---
-
+ -->
 
