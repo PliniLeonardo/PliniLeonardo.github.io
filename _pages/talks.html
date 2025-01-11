@@ -31,7 +31,9 @@ author_profile: true
         <!-- Colonna testo (2/3) -->
         <div style="flex:2;">
           <strong>{{ talk.title }}</strong><br/>
-          {% if talk.date %}<em>{{ talk.date }}</em>{% endif %}
+          {% if talk.date %}
+            <em>{{ talk.date | date: "%-d %B %Y" }}</em>
+          {% endif %}
           {% if talk.location %} – <em>{{ talk.location }}</em>{% endif %}
           <br/>
 
