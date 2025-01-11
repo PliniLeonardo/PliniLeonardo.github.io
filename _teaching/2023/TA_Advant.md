@@ -7,7 +7,7 @@ venue: "Sapienza University of Rome"
 # date: 2023-09-10
 year: '2023'
 location: "Rome, Italy"
-image: '/images/Advantlogo.jpeg'
+image: '/images/Advantlogo.png'
 ---
 
 Teaching Assistant during the Training Camp offered by Advant at Sapienza University of Rome in 2022/23.
