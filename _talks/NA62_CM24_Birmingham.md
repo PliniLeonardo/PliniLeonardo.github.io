@@ -5,6 +5,7 @@ type: "Conference proceedings talk"
 permalink: /talks/CM24_Birmingham
 venue: "NA62 Collaboration Meeting"
 date: 2024-9-7
+year: '2024'
 location: "Birmingham, UK"
 ---
 
