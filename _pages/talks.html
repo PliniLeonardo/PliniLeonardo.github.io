@@ -11,34 +11,24 @@ author_profile: true
 </p>
 {% endif %}
 
-{%- comment -%}
-  1) Ricaviamo tutti gli anni esistenti fra i talk (campo `year`), 
-     li rendiamo unici e li ordiniamo.
-  2) Poi li invertiamo (reverse) per avere dal più recente al più vecchio.
-{%- endcomment -%}
 {% assign talk_years = site.talks | map: 'year' | uniq | sort | reverse %}
 
-{%- comment -%}
-  3) Per ogni anno, creiamo un <details> con un <summary> in cui mostriamo l'anno;
-     dentro lo <details> cicliamo tutti i talk di quell'anno.
-{%- endcomment -%}
 {% for y in talk_years %}
 <details style="margin-bottom:1em;">
   <summary><strong>{{ y }}</strong></summary>
   
   {% for talk in site.talks %}
     {% if talk.year == y %}
-      <!-- Stile a due colonne, simile al tuo publications.html -->
       <div style="display:flex; gap:1em; margin-top:1em;">
         
-        <!-- Colonna immagine (opzionale) -->
+        <!-- Colonna immagine (1/3) -->
         <div style="flex:1;">
           {% if talk.image %}
             <img src="{{ talk.image }}" alt="Talk image" style="width:100%; height:auto;">
           {% endif %}
         </div>
         
-        <!-- Colonna testo (titolo, data, link, ecc.) -->
+        <!-- Colonna testo (2/3) -->
         <div style="flex:2;">
           <strong>{{ talk.title }}</strong><br/>
           {% if talk.date %}<em>{{ talk.date }}</em>{% endif %}
@@ -48,8 +38,9 @@ author_profile: true
           {% if talk.excerpt %}
             {{ talk.excerpt }}
           {% endif %}
-
           <br/>
+
+          <!-- Link Slides / Video -->
           {% if talk.slides_url %}
             <a href="{{ talk.slides_url }}">Slides</a>
           {% endif %}
@@ -61,6 +52,5 @@ author_profile: true
       </div>
     {% endif %}
   {% endfor %}
-  
 </details>
 {% endfor %}
