@@ -7,7 +7,7 @@ venue: "Sapienza University of Rome"
 # date: 2024-08-30
 year: '2024'
 location: "Rome, Italy"
-image: '/images/Sapienza.png'
+image: '/images/Sapienzalogo.png'
 ---
 
 I worked as a Teaching Assistant for the course “Deep Learning” offered in the Bachelor Degree in Applied Computer Science and Artificial Intelligence (Sapienza University of Rome) by Professor Fabio Galasso and Luigi Cinque. I was responsible for the laboratory sessions. 
